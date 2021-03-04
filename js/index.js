@@ -117,7 +117,7 @@ function init(){
         $('html').scrollTop(0) // 사이즈가 달라지는 최초이면 스크롤이 위로 자동올라감
         $('.depth1 > li').removeClass('on') // 햄버거네이브를 열어놓고 사이즈변경우 다시 그 사이즈에서 뎁스2가 그대로 열려있으니 리셋할때!
         $('.nav').removeClass('on')
-        $('.article5 > div').removeClass('row')
+        // $('.article5 > div').removeClass('row')
         // $('.article6 ').removeClass('row')
         
     } 

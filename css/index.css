@@ -10,7 +10,7 @@ body {
 .row {
    max-width: 1140px;
    margin: 0 auto;
-   padding: 0 0px;
+   padding: 0 20px;
 }
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
 .article4,
 .article5,
 .article6 {
-   padding: 150px 0;
+   padding-top: 150px; padding-bottom: 150px;
 }
 
 /* header */
@@ -258,7 +258,10 @@ padding: 4px;}
 .article6 .data table th { border: 1px solid #e8e8e8; vertical-align: middle;}
 .article6 input[type='text'] {width: 100%; height: 44px; border: 1px solid #e8e8e8;}
 .article6 #emaildomain,
-.article6 #email {width: 30%}
+.article6 #email,
+.article6 #hp,
+.article6 #hp1,
+.article6 #hp2 {width: 30%}
 
 
 .article6 textarea {width: 100%; height: 150px; border: 1px solid #e8e8e8;
